@@ -1,0 +1,52 @@
+body {
+  height: 100%;
+  font-family: Bodoni MT;
+}
+
+header {
+  border-bottom: 1px solid;
+}
+
+.nav1 a {
+  color: black;
+  font-size: 20px;
+}
+
+.nav2 a {
+  position: relative;
+  color: black;
+  font-size: 20px;
+}
+
+.nav1 a:hover {
+  background-color: grey;
+  color: white;
+}
+
+.nav2 a:hover {
+  background-color: grey;
+  color: white;
+}
+
+#searchBtn {
+  background-color: black;
+}
+
+#searchBtn:hover {
+  background-color: blue;
+}
+
+.cat_btn {
+  background-color: black;
+}
+
+#categories {
+  padding-right: 50px;
+}
+
+#searchBar {
+  
+}
+
+
+

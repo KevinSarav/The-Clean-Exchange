@@ -1,0 +1,45 @@
+<body>
+  <header class='container-fluid'>
+    <ul class='nav justify-content-end nav1'>
+      <li class='nav-item'>
+        <a class='nav-link' href='#signUpPage'>Sign Up!</a>
+      </li>
+      <li class='nav-item'>
+        <a class='nav-link' href='#logInPage'>Log In</a>
+      </li>
+    </ul>
+    <div class='row'>
+      <div class='col-sm-6'>
+  <h1> <img class='img-fluid' src='https://res.cloudinary.com/shilohplz/image/upload/c_scale,w_80/v1552704122/tce_logo_2.png' alt='tce logo'> the clean exchange</h1>
+      </div>
+      <div class='col-sm-6 align-self-end'>
+        <ul class='nav nav-tabs justify-content-end nav2'>
+      <li class='nav-item'>
+        <a class='nav-link active' href='#aboutPage'>About</a>
+      </li>
+      <li class='nav-item'>
+        <a class='nav-link' href='contactDiv'>Contact</a>
+      </li>
+      <li class='nav-item'>
+        <a class='nav-link' href='#helpPage'>Help</a>
+      </li>    
+    </ul>
+      </div>
+    </div>
+  </header>
+   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+     <div class='dropdown' id='categories'>
+     <button type="button" class='btn btn-dark dropdown-toggle cat_btn' data-toggle='dropdown'>Search by Category
+ </button>
+     <div class='dropdown-menu'>
+      <a class='dropdown-item' href='#Clothes'>Clothes</a>
+        <a class='dropdown-item' href='#Home'>Home</a>
+       </div>
+     </div>
+     <i style='color:white; padding:10px;' class="material-icons">search</i>
+  <form class="form-inline" action="searchItems.php">
+    <input id='searchBar' class="form-control" type="text" placeholder="Start Typing">
+    <button id='searchBtn' class="btn btn-dark" type="submit">Search</button>
+  </form>
+</nav> 
+</body>
